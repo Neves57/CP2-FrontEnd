@@ -5,7 +5,8 @@
 }
 
 body {
-   height: 90vh;
+   max-width: 800px;
+   margin: 0 auto;
 }
 
 header {
@@ -37,7 +38,7 @@ main {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   height: 100%;
+   margin-top: 100px;
 }
 
 form {
@@ -50,7 +51,7 @@ form {
 input {
    padding: 10px 15px;
    font-size: 18px;
-   width: 19rem;
+   width: 16rem;
    border: 3px solid #d9533c;
    outline: none;
 }
@@ -70,7 +71,7 @@ button:hover {
 }
 
 img {
-   max-height: 25rem;
+   max-height: 18rem;
    height: 100%;
 }
 
@@ -78,6 +79,7 @@ img {
    main {
       flex-direction: column;
       gap: 25px;
+      margin-top: 50px;
    }
 
    img {
